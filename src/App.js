@@ -26,7 +26,7 @@ class App extends React.Component{
     return (
       <div>
               
-          <PersonCard firstName="Jane" lastName="Doe" age='45' haircolor="black"/>
+          <PersonCard firstName="Jane" lastName="Doe" age={this.state.age1} haircolor="black"/>
 
           <Boton firstName="Jane" lastName="Doe" happyBirtdhay={this.aumentarEdad1} />
 
